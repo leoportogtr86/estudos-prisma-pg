@@ -1,0 +1,21 @@
+{
+  "name": "prisma-pg",
+  "version": "1.0.0",
+  "description": "1. **O que é PostgreSQL?**\r     - História e características principais\r     - Instalação e configuração básica",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0"
+  }
+}
