@@ -501,5 +501,4 @@
     - Acompanhamento das tendências e atualizações no Prisma e PostgreSQL
 
 Esse guia fornece uma visão abrangente sobre modelagem de dados com PostgreSQL e Prisma, desde os fundamentos até
-tópicos avançados, com um foco exclusivo em desenvolvedores Node.js.#   e s t u d o s - p r i s m a - p g  
- 
+tópicos avançados, com um foco exclusivo em desenvolvedores Node.js.
