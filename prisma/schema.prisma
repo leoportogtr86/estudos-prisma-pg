@@ -28,3 +28,20 @@ model Post {
   authorId  Int?
   author    User?   @relation(fields: [authorId], references: [id])
 }
+
+model Product {
+  id          Int       @id @default(autoincrement())
+  name        String
+  price       Float
+  description String?
+  sku         String    @unique
+  Category    Category? @relation(fields: [categoryId], references: [id])
+  categoryId  Int?
+}
+
+model Category {
+  id       Int       @id @default(autoincrement())
+  name     String
+  products Product[]
+}
+
